@@ -1,0 +1,19 @@
+import { Github } from '@/components/brand-icons';
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { ArrowRight, Check } from 'lucide-react';
+import { profile, siteUrl } from '@/data/profile';
+import { projects } from '@/data/projects';
+import { BackLink, ExternalLink, Tags } from '@/components/ui';
+import { ProjectArt } from '@/components/project-art';
+export const dynamicParams = false;
+export function generateStaticParams() { return projects.map(p=>({slug:p.slug})); }
+export async function generateMetadata({params}: {params: Promise<{slug:string}>}): Promise<Metadata> {
+  const {slug}=await params; const p=projects.find(p=>p.slug===slug);
+  return p ? {title:p.name,description:p.summary,...(siteUrl ? {alternates:{canonical:`/projects/${p.slug}`}} : {}),openGraph:{title:`${p.name} — Harshit Joshi`,description:p.summary}} : {};
+}
+export default async function ProjectPage({params}: {params:Promise<{slug:string}>}) {
+  const {slug}=await params;const p=projects.find(p=>p.slug===slug);if(!p)notFound();
+  return <main id="main" className="container detail-page"><BackLink/><header className="detail-header"><p className="eyebrow">{p.category} / PROJECT CASE STUDY</p><h1>{p.name}<span>.</span></h1><p className="detail-subtitle">{p.label}</p><p>{p.summary}</p><Tags items={p.stack}/><div className="button-row">{p.repos.map(r=><ExternalLink key={r.url} href={r.url} className="button secondary"><Github size={17} aria-hidden="true"/>{r.label}</ExternalLink>)}{p.live && <ExternalLink href={p.live} className="button primary">Open live application</ExternalLink>}</div></header><div className="detail-preview"><ProjectArt project={p} priority/></div>
+    <div className="detail-layout"><aside className="detail-toc"><span className="eyebrow">IN THIS PROJECT</span><a href="#overview">01 / Overview</a><a href="#architecture">02 / Architecture</a><a href="#implementation">03 / Implementation</a><a href="#limits">04 / Scope & next steps</a></aside><div className="detail-content"><section id="overview"><p className="eyebrow">01 / THE CONTEXT</p><h2>Overview</h2><p>{p.overview}</p><h3>The problem</h3><p>{p.problem}</p><h3>Core functionality</h3><ul className="detail-features">{p.features.map(f=><li key={f}><Check size={17} aria-hidden="true"/>{f}</li>)}</ul></section><section id="architecture"><p className="eyebrow">02 / HOW IT FITS TOGETHER</p><h2>Technical architecture</h2><ol className="architecture-flow">{p.architecture.map((a,i)=><li key={a}><span>{String(i+1).padStart(2,'0')}</span>{a}{i<p.architecture.length-1 && <ArrowRight size={18} aria-hidden="true"/>}</li>)}</ol><p className="detail-note">Architecture illustration based on the inspected repository source.</p></section><section id="implementation"><p className="eyebrow">03 / ENGINEERING DECISIONS</p><h2>Implementation highlights</h2>{p.engineering.map((e,i)=><article className="engineering-point" key={e.title}><span>0{i+1}</span><div><h3>{e.title}</h3><p>{e.description}</p></div></article>)}</section><section id="limits"><p className="eyebrow">04 / CURRENT SCOPE</p><h2>Limits & next steps</h2><ul className="scope-list">{p.limitations.map(l=><li key={l}>{l}</li>)}</ul><h3>Future improvements <span className="planned">Planned</span></h3><ul className="scope-list">{p.future.map(f=><li key={f}>{f}</li>)}</ul><div className="source-note"><strong>Explore the implementation</strong><p>Project descriptions were checked against public source, manifests, and relevant workflow files on 14 October 2026.</p>{p.repos.map(r=><ExternalLink key={r.url} href={r.url} className="text-link">{r.label}</ExternalLink>)}</div></section></div></div><div className="detail-bottom"><BackLink/><a className="button primary" href={`mailto:${profile.email}`}>Let’s talk about the work <ArrowRight size={17} aria-hidden="true"/></a></div></main>;
+}

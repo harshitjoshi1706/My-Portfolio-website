@@ -1,0 +1,134 @@
+{
+  "updatedAt": "2026-10-14",
+  "username": "harshitjoshi1706",
+  "repositories": [
+    {
+      "name": "BUZZHUB",
+      "url": "https://github.com/harshitjoshi1706/BUZZHUB",
+      "language": "JavaScript",
+      "updatedAt": "2026-05-01T15:00:37Z",
+      "description": "Social media application using mern",
+      "fork": false
+    },
+    {
+      "name": "criminal_identification_project",
+      "url": "https://github.com/harshitjoshi1706/criminal_identification_project",
+      "language": "Python",
+      "updatedAt": "2026-09-04T14:54:16Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "moviecorner-backend",
+      "url": "https://github.com/harshitjoshi1706/moviecorner-backend",
+      "language": "JavaScript",
+      "updatedAt": "2026-09-01T15:51:32Z",
+      "description": "MovieCorner-backend",
+      "fork": false
+    },
+    {
+      "name": "MovieCorner-frontend",
+      "url": "https://github.com/harshitjoshi1706/MovieCorner-frontend",
+      "language": "JavaScript",
+      "updatedAt": "2023-09-26T14:42:57Z",
+      "description": "MovieCorner-frontend",
+      "fork": false
+    },
+    {
+      "name": "My-Portfolio-website",
+      "url": "https://github.com/harshitjoshi1706/My-Portfolio-website",
+      "language": "HTML",
+      "updatedAt": "2023-08-21T05:24:59Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "python_project",
+      "url": "https://github.com/harshitjoshi1706/python_project",
+      "language": null,
+      "updatedAt": "2026-09-01T15:56:01Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "rag_chunk_robustness",
+      "url": "https://github.com/harshitjoshi1706/rag_chunk_robustness",
+      "language": "Python",
+      "updatedAt": "2026-09-14T17:09:41Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "rag_robustness_analyzer",
+      "url": "https://github.com/harshitjoshi1706/rag_robustness_analyzer",
+      "language": "Python",
+      "updatedAt": "2026-09-18T08:47:03Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "SecureRAG-QR",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR",
+      "language": "Python",
+      "updatedAt": "2026-10-06T15:14:12Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "SpendSmart",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart",
+      "language": "TypeScript",
+      "updatedAt": "2026-10-14T10:14:18Z",
+      "description": null,
+      "fork": false
+    },
+    {
+      "name": "techpulse-research",
+      "url": "https://github.com/harshitjoshi1706/techpulse-research",
+      "language": "JavaScript",
+      "updatedAt": "2026-04-26T10:41:11Z",
+      "description": "Modern web applications increasingly rely on advanced rendering strategies to improve performance, user experience, and search engine visibility. Among these strategies, Client-Side Rendering (CSR), Server-Side Rendering (SSR), and Static Site Generation (SSG) are the most commonly adopted approaches in contemporary web development.",
+      "fork": false
+    },
+    {
+      "name": "tic-tak-toe",
+      "url": "https://github.com/harshitjoshi1706/tic-tak-toe",
+      "language": "CSS",
+      "updatedAt": "2026-09-02T15:37:59Z",
+      "description": null,
+      "fork": false
+    }
+  ],
+  "activity": [
+    {
+      "type": "PushEvent",
+      "repo": "harshitjoshi1706/SpendSmart",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart",
+      "date": "2026-10-14T10:14:20Z"
+    },
+    {
+      "type": "PullRequestEvent",
+      "repo": "harshitjoshi1706/SpendSmart",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart",
+      "date": "2026-10-14T10:14:18Z"
+    },
+    {
+      "type": "PullRequestEvent",
+      "repo": "harshitjoshi1706/SpendSmart",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart",
+      "date": "2026-10-14T10:07:41Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "harshitjoshi1706/SecureRAG-QR",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR",
+      "date": "2026-10-06T15:14:13Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "harshitjoshi1706/SecureRAG-QR",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR",
+      "date": "2026-10-02T15:28:57Z"
+    }
+  ]
+}

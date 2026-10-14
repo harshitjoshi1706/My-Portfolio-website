@@ -1,0 +1,12 @@
+[
+  {
+    "theme": "dark",
+    "violations": [],
+    "passes": 24
+  },
+  {
+    "theme": "light",
+    "violations": [],
+    "passes": 24
+  }
+]

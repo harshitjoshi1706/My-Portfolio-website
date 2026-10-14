@@ -1,0 +1,51 @@
+# Created file inventory
+
+All files are new; the workspace initially contained no portfolio. Generated dependency and build directories are omitted.
+
+- `.env.example`
+- `.github/workflows/ci.yml`
+- `.gitignore`
+- `AGENTS.md`
+- `README.md`
+- `VERIFICATION.md`
+- `accessibility-mobile-case-study.json`
+- `accessibility-report.json`
+- `app/error.tsx`
+- `app/globals.css`
+- `app/layout.tsx`
+- `app/loading.tsx`
+- `app/not-found.tsx`
+- `app/page.tsx`
+- `app/projects/[slug]/page.tsx`
+- `app/robots.ts`
+- `app/sitemap.ts`
+- `components/brand-icons.tsx`
+- `components/header.tsx`
+- `components/project-art.tsx`
+- `components/projects.tsx`
+- `components/resume.tsx`
+- `components/reveal.tsx`
+- `components/ui.tsx`
+- `data/assets.json`
+- `data/evidence.json`
+- `data/github.json`
+- `data/profile.ts`
+- `data/projects.ts`
+- `eslint.config.mjs`
+- `next.config.ts`
+- `package-lock.json`
+- `package.json`
+- `playwright.config.ts`
+- `postcss.config.mjs`
+- `preview-desktop.jpg`
+- `preview-mobile.jpg`
+- `public/icon.svg`
+- `public/og-image.png`
+- `public/projects/moviecorner.jpg`
+- `public/projects/spendsmart.jpg`
+- `public/projects/techpulse.jpg`
+- `scripts/check-assets.mjs`
+- `scripts/refresh-github.mjs`
+- `tests/portfolio.spec.ts`
+- `tsconfig.json`
+- `FILES.md`

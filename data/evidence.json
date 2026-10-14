@@ -1,0 +1,173 @@
+{
+  "checkedAt": "2026-10-14",
+  "sources": [
+    {
+      "repository": "SpendSmart",
+      "path": "README.md",
+      "sha": "00c8bf3c40d1fc9408bb9212dbf7e2b8ba625df9",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/README.md"
+    },
+    {
+      "repository": "SpendSmart",
+      "path": "client/package.json",
+      "sha": "09823848b2ead2a50cf5f0e35b43d61e39546507",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/client/package.json"
+    },
+    {
+      "repository": "SpendSmart",
+      "path": "server/package.json",
+      "sha": "f46e9f325f7123b53cb6799f1ef0da744305471a",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/server/package.json"
+    },
+    {
+      "repository": "SpendSmart",
+      "path": ".github/workflows/ci.yml",
+      "sha": "a3ad746c253ca0d185854eea4ea0f2f5a51880ca",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/.github/workflows/ci.yml"
+    },
+    {
+      "repository": "SpendSmart",
+      "path": "client/src/routes/dashboard.tsx",
+      "sha": "889ae62aa60933c44f840c0fbd6bc33d2e1f7008",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/client/src/routes/dashboard.tsx"
+    },
+    {
+      "repository": "SpendSmart",
+      "path": "server/src/controllers/expenseControllers.ts",
+      "sha": "192dc9130c524c23c89ea28239aaed93f6883366",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/server/src/controllers/expenseControllers.ts"
+    },
+    {
+      "repository": "SpendSmart",
+      "path": "server/src/controllers/profileControllers.ts",
+      "sha": "458baa4b8d674033eabb274bd400199914e7d467",
+      "url": "https://github.com/harshitjoshi1706/SpendSmart/blob/main/server/src/controllers/profileControllers.ts"
+    },
+    {
+      "repository": "SecureRAG-QR",
+      "path": "README.md",
+      "sha": "eef59c08b2bafc30517206d38805a831ff8a1f4b",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR/blob/main/README.md"
+    },
+    {
+      "repository": "SecureRAG-QR",
+      "path": "frontend/package.json",
+      "sha": "723ccc98b86794c58f66d1774205f8f08aa56aad",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR/blob/main/frontend/package.json"
+    },
+    {
+      "repository": "SecureRAG-QR",
+      "path": "backend/app/rag/pipeline.py",
+      "sha": "fdee2a34c33c037f024f6040b2edbc3e0133e495",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR/blob/main/backend/app/rag/pipeline.py"
+    },
+    {
+      "repository": "SecureRAG-QR",
+      "path": "backend/app/crypto/encryptor.py",
+      "sha": "94eb74d737654ac087aa6f3c771e2b466bc057e4",
+      "url": "https://github.com/harshitjoshi1706/SecureRAG-QR/blob/main/backend/app/crypto/encryptor.py"
+    },
+    {
+      "repository": "rag_chunk_robustness",
+      "path": "run_experiment.py",
+      "sha": "d8e530d11b2fa2aab17398606ab6e50e45ce8880",
+      "url": "https://github.com/harshitjoshi1706/rag_chunk_robustness/blob/main/run_experiment.py"
+    },
+    {
+      "repository": "rag_chunk_robustness",
+      "path": "src/retrieval_metrics.py",
+      "sha": "3a4e0ec4255bce4047f938732db98724169346d0",
+      "url": "https://github.com/harshitjoshi1706/rag_chunk_robustness/blob/main/src/retrieval_metrics.py"
+    },
+    {
+      "repository": "rag_robustness_analyzer",
+      "path": "README.md",
+      "sha": "aec2c50a11f4c60993ce820bc011f915774305c5",
+      "url": "https://github.com/harshitjoshi1706/rag_robustness_analyzer/blob/main/README.md"
+    },
+    {
+      "repository": "rag_robustness_analyzer",
+      "path": "data/research_results/experiment_manifest.json",
+      "sha": "96ad701159ba8d47f7b1c8bde47c5488606e17d4",
+      "url": "https://github.com/harshitjoshi1706/rag_robustness_analyzer/blob/main/data/research_results/experiment_manifest.json"
+    },
+    {
+      "repository": "rag_robustness_analyzer",
+      "path": "data/research_results/final_metrics.csv",
+      "sha": "1779f4e82dc200714fe03aad4d6d80d63e4c25da",
+      "url": "https://github.com/harshitjoshi1706/rag_robustness_analyzer/blob/main/data/research_results/final_metrics.csv"
+    },
+    {
+      "repository": "techpulse-research",
+      "path": "README.md",
+      "sha": "5baab4072ed9d2fbe4d3806b38bf0aa019e03636",
+      "url": "https://github.com/harshitjoshi1706/techpulse-research/blob/main/README.md"
+    },
+    {
+      "repository": "techpulse-research",
+      "path": "techpulse-ssg/pages/index.js",
+      "sha": "4c83c9c535a004499de340a083cc4f180e3cdb2e",
+      "url": "https://github.com/harshitjoshi1706/techpulse-research/blob/main/techpulse-ssg/pages/index.js"
+    },
+    {
+      "repository": "techpulse-research",
+      "path": "techpulse-ssr/pages/index.js",
+      "sha": "f6dd61a6cfd0635d6d3daa6866ec3c1315cde6ef",
+      "url": "https://github.com/harshitjoshi1706/techpulse-research/blob/main/techpulse-ssr/pages/index.js"
+    },
+    {
+      "repository": "BUZZHUB",
+      "path": "package.json",
+      "sha": "5ae7189eb7e017c534da99810333d33fc0e91a2f",
+      "url": "https://github.com/harshitjoshi1706/BUZZHUB/blob/main/package.json"
+    },
+    {
+      "repository": "BUZZHUB",
+      "path": "client/package.json",
+      "sha": "83d72e09f50eff96270d36cbcc54ab1504ed7388",
+      "url": "https://github.com/harshitjoshi1706/BUZZHUB/blob/main/client/package.json"
+    },
+    {
+      "repository": "BUZZHUB",
+      "path": "routes/postRouter.js",
+      "sha": "d15ca94854be0d9c24c6349a6f28c959462ff438",
+      "url": "https://github.com/harshitjoshi1706/BUZZHUB/blob/main/routes/postRouter.js"
+    },
+    {
+      "repository": "BUZZHUB",
+      "path": "routes/messageRouter.js",
+      "sha": "f54f87679024626866b18df223ae75ee7f61d151",
+      "url": "https://github.com/harshitjoshi1706/BUZZHUB/blob/main/routes/messageRouter.js"
+    },
+    {
+      "repository": "MovieCorner-frontend",
+      "path": "package.json",
+      "sha": "fc26e69ae851822528b50b1f99ff1687a9f9a5e1",
+      "url": "https://github.com/harshitjoshi1706/MovieCorner-frontend/blob/main/package.json"
+    },
+    {
+      "repository": "MovieCorner-frontend",
+      "path": "src/pages/Login.jsx",
+      "sha": "f29a6292dbffb9ace3f1b4d403d9087b6aa3afc5",
+      "url": "https://github.com/harshitjoshi1706/MovieCorner-frontend/blob/main/src/pages/Login.jsx"
+    },
+    {
+      "repository": "MovieCorner-frontend",
+      "path": "src/components/movie-grid/MovieGrid.jsx",
+      "sha": "1893fe4600f629593eda1a6038b4d540f3c6696d",
+      "url": "https://github.com/harshitjoshi1706/MovieCorner-frontend/blob/main/src/components/movie-grid/MovieGrid.jsx"
+    },
+    {
+      "repository": "moviecorner-backend",
+      "path": "package.json",
+      "sha": "0e0e8a75dde56fde7ef67bad82af1526f2571577",
+      "url": "https://github.com/harshitjoshi1706/moviecorner-backend/blob/main/package.json"
+    },
+    {
+      "repository": "moviecorner-backend",
+      "path": "routes/auth.js",
+      "sha": "aff4db19220deb8fcc8c1f59f35f348e3d3ddf73",
+      "url": "https://github.com/harshitjoshi1706/moviecorner-backend/blob/main/routes/auth.js"
+    }
+  ]
+}
